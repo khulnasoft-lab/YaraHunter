@@ -52,4 +52,4 @@ docker run -it --rm --name=yara-hunter \
 
 ### Scan during CI/CD build
 
-Refer to the detailed [documentation for CI/CD integration](https://github.com/deepfence/YaraHunter/tree/main/ci-cd-integration).
+Refer to the detailed [documentation for CI/CD integration](https://github.com/khulnasoft-lab/YaraHunter/tree/main/ci-cd-integration).

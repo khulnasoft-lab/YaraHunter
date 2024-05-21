@@ -1,8 +1,8 @@
 [<img src="https://img.shields.io/badge/documentation-read-green">](https://docs.deepfence.io/yarahunter/)
-[![GitHub license](https://img.shields.io/github/license/deepfence/YaraHunter)](https://github.com/deepfence/YaraHunter/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/deepfence/YaraHunter)](https://github.com/deepfence/YaraHunter/stargazers)
-[![Hacktoberfest](https://img.shields.io/github/hacktoberfest/2022/deepfence/YaraHunter)](https://github.com/deepfence/YaraHunter/issues)
-[![GitHub issues](https://img.shields.io/github/issues/deepfence/YaraHunter)](https://github.com/deepfence/YaraHunter/issues)
+[![GitHub license](https://img.shields.io/github/license/khulnasoft-lab/YaraHunter)](https://github.com/khulnasoft-lab/YaraHunter/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/khulnasoft-lab/YaraHunter)](https://github.com/khulnasoft-lab/YaraHunter/stargazers)
+[![Hacktoberfest](https://img.shields.io/github/hacktoberfest/2022/khulnasoft-lab/YaraHunter)](https://github.com/khulnasoft-lab/YaraHunter/issues)
+[![GitHub issues](https://img.shields.io/github/issues/khulnasoft-lab/YaraHunter)](https://github.com/khulnasoft-lab/YaraHunter/issues)
 [![Slack](https://img.shields.io/badge/slack-@deepfence-blue.svg?logo=slack)](https://join.slack.com/t/deepfence-community/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ)
 
 # YaraHunter
@@ -22,7 +22,7 @@ Key capabilities:
 - Run anywhere: highly-portable, docker container form factor
 - Designed for automation: easy-to-deploy, easy-to-parse JSON output
 
-YaraHunter is a work-in-progress (check the [Roadmap](https://github.com/deepfence/YaraHunter/projects) and [issues list](issues)), and will be integrated into the [ThreatMapper](https://github.com/deepfence/ThreatMapper) threat discovery platform. We welcome any contributions to help to improve this tool.
+YaraHunter is a work-in-progress (check the [Roadmap](https://github.com/khulnasoft-lab/YaraHunter/projects) and [issues list](issues)), and will be integrated into the [ThreatMapper](https://github.com/deepfence/ThreatMapper) threat discovery platform. We welcome any contributions to help to improve this tool.
 
 ## Quick Start
 
@@ -75,7 +75,7 @@ Thank you for using YaraHunter.
 
 - [<img src="https://img.shields.io/badge/documentation-read-green">](https://docs.deepfence.io/docs/yarahunter/) Start with the documentation
 - [<img src="https://img.shields.io/badge/slack-@deepfence-blue.svg?logo=slack">](https://join.slack.com/t/deepfence-community/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ) Got a question, need some help? Find the Deepfence team on Slack
-- [![GitHub issues](https://img.shields.io/github/issues/deepfence/YaraHunter)](https://github.com/deepfence/YaraHunter/issues) Got a feature request or found a bug? Raise an issue
+- [![GitHub issues](https://img.shields.io/github/issues/khulnasoft-lab/YaraHunter)](https://github.com/khulnasoft-lab/YaraHunter/issues) Got a feature request or found a bug? Raise an issue
 - [productsecurity _at_ deepfence _dot_ io](SECURITY.md): Found a security issue? Share it in confidence
 - Find out more at [deepfence.io](https://deepfence.io/)
 

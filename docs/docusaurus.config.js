@@ -33,7 +33,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/deepfence/YaraHunter/docs/',
+            'https://github.com/khulnasoft-lab/YaraHunter/docs/',
           breadcrumbs: true,
           routeBasePath: '/',
           // options for remark-admonitions

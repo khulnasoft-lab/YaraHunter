@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deepfence/YaraHunter/constants"
+	"github.com/khulnasoft-lab/YaraHunter/constants"
 	log "github.com/sirupsen/logrus"
 )
 

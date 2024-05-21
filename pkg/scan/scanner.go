@@ -1,7 +1,7 @@
 package scan
 
 import (
-	"github.com/deepfence/YaraHunter/pkg/config"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/config"
 	"github.com/hillu/go-yara/v4"
 )
 

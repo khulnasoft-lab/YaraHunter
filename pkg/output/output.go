@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/deepfence/YaraHunter/utils"
-	pb "github.com/deepfence/agent-plugins-grpc/srcgo"
+	"github.com/khulnasoft-lab/YaraHunter/utils"
+	pb "github.com/khulnasoft-lab/agent-plugins-grpc/srcgo"
 	log "github.com/sirupsen/logrus"
 
 	// "github.com/fatih/color"

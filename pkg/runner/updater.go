@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deepfence/YaraHunter/pkg/config"
-	utils "github.com/deepfence/YaraHunter/utils"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/config"
+	utils "github.com/khulnasoft-lab/YaraHunter/utils"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deepfence/YaraHunter/constants"
+	"github.com/khulnasoft-lab/YaraHunter/constants"
 	yara "github.com/hillu/go-yara/v4"
 	log "github.com/sirupsen/logrus"
 )

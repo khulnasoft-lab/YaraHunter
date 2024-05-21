@@ -17,14 +17,14 @@ import (
 
 	"fmt"
 
-	"github.com/deepfence/YaraHunter/constants"
-	"github.com/deepfence/YaraHunter/core"
-	"github.com/deepfence/golang_deepfence_sdk/utils/tasks"
+	"github.com/khulnasoft-lab/YaraHunter/constants"
+	"github.com/khulnasoft-lab/YaraHunter/core"
+	"github.com/khulnasoft-lab/golang_sdk/utils/tasks"
 	"github.com/gabriel-vasile/mimetype"
 
-	// yaraConf "github.com/deepfence/YaraHunter/pkg/config"
-	"github.com/deepfence/YaraHunter/pkg/output"
-	"github.com/deepfence/vessel"
+	// yaraConf "github.com/khulnasoft-lab/YaraHunter/pkg/config"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/output"
+	"github.com/khulnasoft-lab/vessel"
 	yr "github.com/hillu/go-yara/v4"
 	"github.com/sirupsen/logrus"
 )

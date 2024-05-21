@@ -3,9 +3,9 @@ package runner
 import (
 	"strings"
 
-	"github.com/deepfence/YaraHunter/pkg/output"
-	"github.com/deepfence/YaraHunter/pkg/scan"
-	"github.com/deepfence/golang_deepfence_sdk/utils/tasks"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/output"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/scan"
+	"github.com/khulnasoft-lab/golang_sdk/utils/tasks"
 	log "github.com/sirupsen/logrus"
 )
 

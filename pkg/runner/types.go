@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deepfence/YaraHunter/pkg/output"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/output"
 )
 
 type IOCWriter interface {

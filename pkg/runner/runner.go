@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deepfence/YaraHunter/constants"
-	"github.com/deepfence/YaraHunter/pkg/config"
-	"github.com/deepfence/YaraHunter/pkg/output"
-	"github.com/deepfence/YaraHunter/pkg/scan"
-	"github.com/deepfence/YaraHunter/pkg/server"
-	"github.com/deepfence/YaraHunter/pkg/yararules"
-	"github.com/deepfence/golang_deepfence_sdk/utils/tasks"
+	"github.com/khulnasoft-lab/YaraHunter/constants"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/config"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/output"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/scan"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/server"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/yararules"
+	"github.com/khulnasoft-lab/golang_sdk/utils/tasks"
 	log "github.com/sirupsen/logrus"
 )
 

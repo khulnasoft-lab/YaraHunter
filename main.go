@@ -31,8 +31,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/deepfence/YaraHunter/pkg/config"
-	"github.com/deepfence/YaraHunter/pkg/runner"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/config"
+	"github.com/khulnasoft-lab/YaraHunter/pkg/runner"
 	log "github.com/sirupsen/logrus"
 )
 
