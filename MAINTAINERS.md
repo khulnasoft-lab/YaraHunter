@@ -1,12 +1,12 @@
-## Maintainers of Deepfence YaraHunter
+## Maintainers of Khulnasoft YaraHunter
 
-| Name                    | Email                     | Deepfence Community Slack | GitHub                                               | Company   |
+| Name                    | Email                     | Khulnasoft Community Slack | GitHub                                               | Company   |
 |-------------------------|---------------------------|---------------------------|------------------------------------------------------|-----------|
-| Venkata Deviprasad Sura | deviprasad@deepfence.io   | `@Devi Prasad`            | [@deviprasad303](https://github.com/deviprasad303)   | Deepfence |
-| Mukul Varshney          | mukul@deepfence.io        | `@Mukul Varshney`         | [@mukuldeepfence](https://github.com/mukuldeepfence) | Deepfence |
-| Harshvardhan Karn       | harshvardhan@deepfence.io | `@harsh`                  | [@ibreakthecloud](https://github.com/ibreakthecloud) | Deepfence |             |                      |                           |                                                   |           |
+| Venkata Deviprasad Sura | deviprasad@khulnasoft.com   | `@Devi Prasad`            | [@deviprasad303](https://github.com/deviprasad303)   | Khulnasoft |
+| Mukul Varshney          | mukul@khulnasoft.com        | `@Mukul Varshney`         | [@mukulkhulnasoft](https://github.com/mukulkhulnasoft) | Khulnasoft |
+| Harshvardhan Karn       | harshvardhan@khulnasoft.com | `@harsh`                  | [@ibreakthecloud](https://github.com/ibreakthecloud) | Khulnasoft |             |                      |                           |                                                   |           |
 
-Please reach any of the maintainers on slack (#community-support on https://deepfence-community.slack.com) or email if you want to help.
+Please reach any of the maintainers on slack (#community-support on https://khulnasoft-community.slack.com) or email if you want to help.
 
 ## How to be maintainer?
 

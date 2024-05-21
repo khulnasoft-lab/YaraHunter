@@ -7,7 +7,7 @@ title: Command-Line Options
 Display the command line options:
 
 ```bash
-$ docker run -it --rm quay.io/deepfenceio/deepfence_malware_scanner_ce:2.2.0 --help
+$ docker run -it --rm quay.io/khulnasoft/khulnasoft_malware_scanner_ce:2.2.0 --help
 ```
 
 Note that all files and directories used in YaraHunter configuration are local to the container, not the host filesystem. The examples given illustrate how to map host directories to the container when needed.
@@ -43,7 +43,7 @@ YaraHunter can write output as Table and JSON format
 YaraHunter applies YARA rules from the local container filesystem; all `*.yar` and `*.yara` files in the `rules-path` are considered. You can replace the default rules with your own by providing a different `rules-path`, mounted from the host filesystem.
 
  * `--fail-on-rule-compile-warn`: YaraHunter will fail if a yara rule compilation has warnings; otherwise, rules that fail to compile are just ignored
- * `--rules-path string`: all .yar and .yara files in the given local directory will be compiled (default "/home/deepfence/rules")
+ * `--rules-path string`: all .yar and .yara files in the given local directory will be compiled (default "/home/khulnasoft/rules")
  
 ### Configure Scans
 

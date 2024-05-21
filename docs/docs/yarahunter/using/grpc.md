@@ -23,11 +23,11 @@ You will need the [grcpurl](https://github.com/fullstorydev/grpcurl) tool.
 Start the MalwareScanner gRPC server:
 
 ```bash
-docker run -it --rm --name=deepfence-malwarescanner \
-	-v $(pwd):/home/deepfence/output \
+docker run -it --rm --name=khulnasoft-malwarescanner \
+	-v $(pwd):/home/khulnasoft/output \
 	-v /var/run/docker.sock:/var/run/docker.sock \
 	-v /tmp/sock:/tmp/sock \
-	quay.io/deepfenceio/deepfence_malware_scanner_ce:2.2.0 \
+	quay.io/khulnasoft/khulnasoft_malware_scanner_ce:2.2.0 \
 	-socket-path /tmp/sock/s.sock
 ```
 

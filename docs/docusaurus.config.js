@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Deepfence YaraHunter',
+  title: 'Khulnasoft YaraHunter',
   tagline: 'Malware scanner for cloud-native, as part of CI/CD and at Runtime',
   url: 'https://yarahunter.local',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
-  favicon: '/img/deepfence.png',
+  favicon: '/img/khulnasoft.png',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -41,7 +41,7 @@ const config = {
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./static/css/deepfence.css'),
+          customCss: require.resolve('./static/css/khulnasoft.css'),
         },
       }),
     ],
@@ -54,9 +54,9 @@ const config = {
         hideOnScroll: false,
         title: '',
         logo: {
-          alt: 'Deepfence',
-          src: '/img/deepfence-logo-black.svg',
-          srcDark: '/img/deepfence-logo-white.svg',
+          alt: 'Khulnasoft',
+          src: '/img/khulnasoft-logo-black.svg',
+          srcDark: '/img/khulnasoft-logo-white.svg',
         },
         items: [
           {
@@ -65,12 +65,12 @@ const config = {
             label: 'YaraHunter Documentation',
           },
           { 
-            to: 'https://deepfence.io/',
-            label: 'deepfence.io',
+            to: 'https://khulnasoft.com/',
+            label: 'khulnasoft.com',
             position: 'right',
           },
           {
-            href: 'https://github.com/deepfence',
+            href: 'https://github.com/khulnasoft',
             label: 'GitHub',
             position: 'right',
           },
@@ -79,12 +79,12 @@ const config = {
       footer: {
         style: 'dark',
         logo: {
-          alt: 'Deepfence, Inc',
-          src: '/img/deepfence-logo-white.svg',
+          alt: 'Khulnasoft, Inc',
+          src: '/img/khulnasoft-logo-white.svg',
           width: 160,
           height: 51,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Deepfence, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Khulnasoft, Inc. Built with Docusaurus.`,
       },
       colorMode: {
         defaultMode: 'light',

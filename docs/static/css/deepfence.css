@@ -81,7 +81,7 @@ pre code {
 
 
 
-.deepfence-button {
+.khulnasoft-button {
   background-color: var(--ifm-color-button); 
   border: 1px solid var(--ifm-color-button); 
   color: var(--ifm-color-button-text);
@@ -95,7 +95,7 @@ pre code {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px
 }
 
-.deepfence-button:hover {
+.khulnasoft-button:hover {
   background-color: var(--ifm-color-button-hover); 
   color: var(--ifm-color-button-text-hover);
 }

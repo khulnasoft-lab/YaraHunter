@@ -50,17 +50,17 @@ RUN cd /root && wget https://github.com/VirusTotal/yara/archive/refs/tags/v4.3.2
     && cd /usr/local/ \
     && tar -czf yara.tar.gz yara
 
-WORKDIR /home/deepfence/src/YaraHunter
+WORKDIR /home/khulnasoft/src/YaraHunter
 COPY . .
 RUN make clean \
     && make all \
-    && cd /home/deepfence \
-    && git clone https://github.com/deepfence/yara-rules
+    && cd /home/khulnasoft \
+    && git clone https://github.com/khulnasoft/yara-rules
 
 
 FROM debian:bookworm
-LABEL MAINTAINER="Deepfence"
-LABEL deepfence.role=system
+LABEL MAINTAINER="Khulnasoft"
+LABEL khulnasoft.role=system
 
 COPY --from=skopeo-builder /usr/bin/skopeo /usr/bin/skopeo
 
@@ -94,15 +94,15 @@ EOF
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y libgpgme-dev libdevmapper-dev
 
-WORKDIR /home/deepfence/usr
-COPY --from=builder /home/deepfence/yara-rules .
+WORKDIR /home/khulnasoft/usr
+COPY --from=builder /home/khulnasoft/yara-rules .
 COPY --from=builder /usr/local/yara.tar.gz /usr/local/yara.tar.gz
-COPY --from=builder /home/deepfence/src/YaraHunter/YaraHunter .
-COPY --from=builder /home/deepfence/src/YaraHunter/config.yaml .
+COPY --from=builder /home/khulnasoft/src/YaraHunter/YaraHunter .
+COPY --from=builder /home/khulnasoft/src/YaraHunter/config.yaml .
 
 RUN cd /usr/local/ \
     && tar -xzf yara.tar.gz
-WORKDIR /home/deepfence/output
+WORKDIR /home/khulnasoft/output
 
-ENTRYPOINT ["/home/deepfence/usr/YaraHunter", "-config-path", "/home/deepfence/usr", "-rules-path", "/home/deepfence/usr"]
+ENTRYPOINT ["/home/khulnasoft/usr/YaraHunter", "-config-path", "/home/khulnasoft/usr", "-rules-path", "/home/khulnasoft/usr"]
 CMD ["-h"]
