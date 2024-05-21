@@ -20,7 +20,7 @@ import (
 
 var (
 	MgmtConsoleURL string
-	KhulnasoftKey   string
+	KhulnasoftKey  string
 )
 
 func init() {

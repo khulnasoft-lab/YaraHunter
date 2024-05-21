@@ -30,7 +30,7 @@ type Options struct {
 	OutFormat            *string
 	ConsoleURL           *string
 	ConsolePort          *int
-	KhulnasoftKey         *string
+	KhulnasoftKey        *string
 	FailOnCount          *int
 	FailOnHighCount      *int
 	FailOnMediumCount    *int
@@ -60,7 +60,7 @@ func ParseOptions() (*Options, error) {
 		OutFormat:            flag.String("output", TableOutput, "Output format: json or table"),
 		ConsoleURL:           flag.String("console-url", "", "Khulnasoft Management Console URL"),
 		ConsolePort:          flag.Int("console-port", 443, "Khulnasoft Management Console Port"),
-		KhulnasoftKey:         flag.String("khulnasoft-key", "", "Khulnasoft key for auth"),
+		KhulnasoftKey:        flag.String("khulnasoft-key", "", "Khulnasoft key for auth"),
 		FailOnCount:          flag.Int("fail-on-count", -1, "Exit with status 1 if number of malwares found is >= this value (Default: -1)"),
 		FailOnHighCount:      flag.Int("fail-on-high-count", -1, "Exit with status 1 if number of high malwares found is >= this value (Default: -1)"),
 		FailOnMediumCount:    flag.Int("fail-on-medium-count", -1, "Exit with status 1 if number of medium malwares found is >= this value (Default: -1)"),
